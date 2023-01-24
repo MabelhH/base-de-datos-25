@@ -1,0 +1,13 @@
+ul,li,a{
+    list-style: none;
+    border-radius: 6px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    
+}
+.menu{
+    background-color: rgb(109, 103, 232);
+    color: aliceblue;
+    
+}

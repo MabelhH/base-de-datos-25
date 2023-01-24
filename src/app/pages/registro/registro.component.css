@@ -1,0 +1,25 @@
+.registro{
+    margin: 150px;
+    background-color: rgb(210, 241, 241);
+    border: 2px solid aqua;
+    padding: 15px;
+    border-radius: 5px;
+    width: 800px;
+
+}
+input{
+    width: 590px;
+    border-radius: 4px;
+    
+}
+label{
+    margin-left: 15px;
+    font-size: 22px;
+}
+.boton{
+    background-color: cadetblue;
+    border: 2px solid rgb(91, 137, 138);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 5px;
+}

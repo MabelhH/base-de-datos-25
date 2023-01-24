@@ -1,0 +1,37 @@
+<div class="registro">
+    <h1 class="text-center fs-1">Farmacia</h1>
+    <hr>
+    <br>
+    <form [formGroup]="formRegister">
+        <div class="row">
+           <div class="col-2 col-ms-12">
+             <label for="producto"><b>Producto:</b></label>
+           </div>
+            <div class="col-10">
+             <input type="text"  formControlName="producto"   id="producto">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2">
+              <label for="costo"><b>Costo:</b></label>
+            </div>
+            <div class="col-10">
+              <input type="text" formControlName="costo"  id="costo">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2">
+            <label for="foto"><b>Foto:</b></label>
+            </div>
+            <div class="col-10">
+            <input type="text"  formControlName="foto" id="foto">
+            </div>
+        </div>
+        <br>
+        <div class="">
+            <button type="submit" class="boton" (click)="registrar()">registrar</button>
+        </div>
+    </form>
+</div>
