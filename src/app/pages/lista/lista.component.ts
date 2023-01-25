@@ -31,4 +31,9 @@ export class ListaComponent implements OnInit {
     const response = this.farmaServices.deletedFarmacia(farmacia)
     console.log(response)
   }
+  //  onClickEditar(farmacia:farmacia){
+  //    const response = this.farmaServices.editarfarmacia(farmacia)
+  //    console.log(response)
+  //  }
+
 }

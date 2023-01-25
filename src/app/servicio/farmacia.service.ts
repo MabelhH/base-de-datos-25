@@ -33,7 +33,9 @@ export class FarmaciaService {
      const farmaciaRef = doc(this.firestore, `farmacia02/${farmacia.id}`)
      return deleteDoc(farmaciaRef);
    }
-
+  // editarfarmacia(farmacia:farmacia){
+     
+  // }
   getlista(){
     return signOut(this.auth);
   } 

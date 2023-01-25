@@ -22,7 +22,7 @@ export class RegistroComponent implements OnInit {
       
     }
       registrar(){
-      console.log(this.formRegister.value)
+       console.log(this.formRegister.value)
        const response = this.farmaciaService.addProduct(this.formRegister.value)
        console.log(response)
   }

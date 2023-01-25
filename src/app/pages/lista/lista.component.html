@@ -1,4 +1,4 @@
-<p>Listya de productos</p>
+<p>Lista de productos</p>
 
 <table>
 
@@ -14,7 +14,8 @@
             <td>S/. {{ prod.costo }}</td>
             <td><img src="{{ prod.foto }}" alt="" width="100"></td>
             <td>
-                <button class="boton" (click)="onClickDelete(prod)">Elilminar</button>
+                <button class="boton" (click)="onClickDelete(prod)">Eliminar</button>
+                <!-- <button class="boton2" (ciclk)="onClickEditar(prod)">Editar</button> -->
             </td>
         </tr>
     </tbody>

@@ -7,11 +7,11 @@ import { RegistroComponent } from './pages/registro/registro.component';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 
 const routes: Routes = [
-  {path:'home', component:HomeComponent , ...canActivate(()=> redirectUnauthorizedTo(['/lista']))},
+  {path:'home', component:HomeComponent ,...canActivate(()=> redirectUnauthorizedTo(['/lista']))},
   {path:'login', component:LoginComponent},
   {path:'lista', component:ListaComponent},
   {path:'registro',component:RegistroComponent},
-  {path:'**',redirectTo:'login',pathMatch:'full'}
+  {path:'',redirectTo:'/login',pathMatch:'full'}
 ];
 
 @NgModule({
